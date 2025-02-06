@@ -1,5 +1,5 @@
-frogger_resurration.out: clean main.o frog.o crocodile.o control.o grenade.o bullet.o audio.o server.o thread_sync.o globals.o
-	gcc main.o frog.o crocodile.o control.o grenade.o bullet.o audio.o server.o thread_sync.o globals.o -o frogger_resurration.out -lncurses -pthread -lSDL2 -lSDL2_mixer 
+frogger_resurrection.out: clean main.o frog.o crocodile.o control.o grenade.o bullet.o audio.o server.o thread_sync.o globals.o
+	gcc main.o frog.o crocodile.o control.o grenade.o bullet.o audio.o server.o thread_sync.o globals.o -o frogger_resurrection.out -lncurses -pthread -lSDL2 -lSDL2_mixer 
 
 main.o: main.c header.h
 	gcc -c main.c
