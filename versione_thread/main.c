@@ -49,7 +49,7 @@ int main() {
             "|  __||    / | |  | || | ___ | | ___ |  ___| |    /",
             "| |   | |\\ \\ |  \\/  || |__| || |__| || |____ | |\\ \\ ",
             "|_|   |_| \\_\\ \\____/  \\_____| \\_____||______||_| \\_\\ "};
-        char resurration[6][88] = {
+        char resurrection[6][88] = {
             " ____   ______  _____  _     _  ____   ____    _____   ________  __   "
             "_____   __    _",
             "|  _ \\ |  ____|/  ___|| |   | ||  _ \\ |  _ \\  /  _  \\ |__    __|| "
@@ -90,7 +90,7 @@ int main() {
         }
         for (int i = 0; i < 6; i++) {
             mvwprintw(start, maxy / 3 + 8 + i, (maxx - 87) / 2, "%s",
-                    resurration[i]);
+                    resurrection[i]);
         }
         mvwprintw(start, maxy - (maxy / 4), (maxx - 27) / 2,
                 "Press 's' to start the game");
