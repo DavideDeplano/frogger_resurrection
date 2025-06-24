@@ -1,4 +1,9 @@
-# frogger_resurrection  
+# 🐸 Frogger Resurrection
+
+![C](https://img.shields.io/badge/language-C-blue.svg)
+![OS](https://img.shields.io/badge/platform-Linux-green.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
+![Project type](https://img.shields.io/badge/type-University%20Project-purple)
 
 ## Description  
 
